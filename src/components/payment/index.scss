@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i%7CComfortaa:300,400,700&display=swap');
+
+
+/**  =====================
+      Custom css start
+==========================  **/
+a {
+    text-decoration: none;
+}
+
+
+.h6, h6 {
+    font-size: .875rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: Sarabun,sans-serif;
+    font-weight: 600;
+}
+b, strong {
+  font-weight: 500;
+}
+// body {
+//     font-family: Roboto,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+//     font-size: 0.875rem;
+//     font-weight: 400;
+//     line-height: 1.45;
+//     margin: 0;
+//     background-color: #000;
+// }
+.main {
+    position: relative;
+}
+ 
+.signup-content{
+    margin: 26px 0 0 0;
+    background: #fff;
+}
+.signup-img {
+    position: relative;
+    width: 28%;
+    background-color: rgb(94, 94, 184);
+}
+.signup-img img {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(94, 94, 184);
+}
+.signup-img-content {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%; }
+    .signup-img-content2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%; }
+ .c4c-logo {
+        width: 60%;
+        display: inline-block;
+    }
+    .signup-form {
+       // width: 72%;
+    }
+.signup-form header{
+ padding: 12px 10px 8px 10px;
+ border-bottom: 1px solid #ddd;
+}
+.signup-form header h4{ 
+  margin-bottom: 0 ;
+}
+.switchright .checkbox {
+  margin-top: 0.2rem;
+}
+.toggle {
+    position: relative;
+    display: block;
+    width: 34px;
+    height: 20px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+#cbx:checked + .toggle:before {
+    background: #000000;
+}
+.toggle:before {
+    content: "";
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 34px;
+    height: 14px;
+    font-size: 10px;
+    display: block;
+    background: #b9b3b3;
+    border-radius: 8px;
+    -webkit-transition: background .2s ease;
+    -o-transition: background .2s ease;
+    transition: background .2s ease;
+}
+
+
+.toggle span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+#cbx:checked + .toggle span {
+    background: #0d85c3;
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+    -webkit-transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    -o-transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    transition: all 0.2s cubic-bezier(0.8, 0.4, 0.3, 1.25), background 0.15s ease;
+    -webkit-box-shadow: 0 3px 8px rgba(255, 123, 176, 0.2);
+    box-shadow: 0 3px 8px rgba(91, 93, 252, 0.2);
+}
+
+.toggle span:before {
+    content: "";
+    position: absolute;
+    display: block;
+    margin: -18px;
+    width: 56px;
+    height: 56px;
+    background: rgba(125, 91, 248, 0.5);
+    border-radius: 50%;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 1;
+    pointer-events: none;
+}
+#cbx:checked + .toggle span:before, #cbx2:checked + .toggle span:before {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+ 
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em ;
+    margin: 0 0 1.5em 0;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+     box-shadow:  0px 0px 0px 0px #000;
+
+}
+
+    legend.scheduler-border {
+        font-size: 1.2em !important;
+        font-weight: bold !important;
+        text-align: left !important;
+        width:auto;
+        padding:0 10px;
+        border-bottom:none;
+        float: none;
+    }
+ 
+ .mbllogobg {
+    display: none;
+    background: #024e7f;
+    padding: 10px;
+ }
+ .register-form .submit{
+   float: right;
+ }
+ 
+    .register-form .submit button {
+        padding: 0.568em 3em;
+        border-radius: 50px;
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: all 300ms ease;
+      }
+      .register-form .submit button span {
+        display: inline-block;
+        transition: all 300ms ease;
+      }
+      .register-form .submit button:before, .register-form .submit button:after {
+        content: "";
+        display: block;
+        position: absolute;
+        transition: all 300ms ease;
+        opacity: 0;
+      }
+      .register-form .submit button:before {
+        height: 7px;
+        width: 7px;
+        background: transparent;
+        border-right: 2px solid;
+        border-top: 2px solid;
+        right: 30px;
+        top: 18px;
+        transform: rotate(45deg);
+      }
+      .register-form .submit button:after {
+        background: white;
+        height: 2px;
+        width: 50px;
+        left: -39px;
+        top: 1.31em;
+      }
+      .register-form .submit button:hover span {
+        transform: translateX(-10px);
+      }
+      .register-form .submit button:hover:before {
+        opacity: 1;
+      }
+      .register-form .submit button:hover:after {
+        width: 14px;
+        opacity: 1;
+        transform: translateX(150px);
+        -moz-transform: translateX(150px);
+        -webkit-transform: translateX(150px);
+      }
+
+      .register-form .submit.confirmpay  button:hover:after {
+        width: 14px;
+        opacity: 1;
+        transform: translateX(150px);
+        -moz-transform: translateX(150px);
+        -webkit-transform: translateX(190px);
+    }
+
+    .register-form .backbtn{
+      float: left;
+    }
+    
+       .register-form .backbtn button {
+           padding: 0.568em 3em;
+           border-radius: 50px;
+           cursor: pointer;
+           display: inline-block;
+           position: relative;
+           transition: all 300ms ease;
+         }
+         .register-form .backbtn button span {
+           display: inline-block;
+           transition: all 300ms ease;
+         }
+         .register-form .backbtn button:before, .register-form .backbtn button:after {
+           content: "";
+           display: block;
+           position: absolute;
+           transition: all 300ms ease;
+           opacity: 0;
+         }
+         .register-form .backbtn button:before {
+           height: 7px;
+           width: 7px;
+           background: transparent;
+           border-left: 2px solid;
+           border-bottom: 2px solid;
+           left: 20px;
+           top: 18px;
+           transform: rotate(45deg);
+         }
+         .register-form .backbtn button:after {
+           background: white;
+           height: 2px;
+           width: 50px;
+           left: 80px;
+           top: 1.31em;
+         }
+         .register-form .backbtn button:hover span {
+           transform: translateX(10px);
+         }
+         .register-form .backbtn button:hover:before {
+           opacity: 1;
+         }
+         .register-form .backbtn button:hover:after {
+           width: 14px;
+           opacity: 1;
+           transform: translateX(-60px);
+           -moz-transform: translateX(-60px);
+           -webkit-transform: translateX(-60px);
+         }
+ 
+
+      .switchright h6{
+        font-size: 1rem;
+      }
+
+    .checkboxInput input {
+        width: 18px;
+        height: 18px;
+        position: relative;
+        top: 2px;
+    }
+    .checkboxInput p {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+        line-height: 1.75;
+        color: #646464;
+        text-align: left;
+    }
+    .checkboxInput p a:hover {
+      text-decoration: underline;
+    }
+
+
+
+    
+    .selectpay {
+        display: flex;
+      }
+      .selectpay label {
+        display: flex;
+        cursor: pointer;
+        font-weight: 500;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 0.375em;
+        width: 50%;
+        height: 40px;
+        margin-top: 16px;
+        /* Accessible outline */
+        /* Remove comment to use */
+        /*
+            &:focus-within {
+                    outline: .125em solid $primary-color;
+            }
+        */
+      }
+
+      .selectpay label input {
+        position: absolute;
+        left: -9999px;
+      }
+      .selectpay label input:checked + span {
+        background-color: #d6d6e5;
+      }
+      .selectpay label input:checked + span:before {
+        box-shadow: inset 0 0 0 0.4375em #00005c;
+      }
+      .selectpay label span {
+        display: flex;
+        align-items: center;
+        padding: 0.375em 0.75em 0.375em 0.375em;
+        border-radius: 99em;
+        transition: 0.25s ease;
+      }
+      .selectpay label span:hover {
+        background-color: #d6d6e5;
+      }
+      .selectpay label span:before {
+        display: flex;
+        flex-shrink: 0;
+        content: "";
+        background-color: #fff;
+        width: 1.5em;
+        height: 1.5em;
+        border-radius: 50%;
+        margin-right: 0.375em;
+        transition: 0.25s ease;
+        box-shadow: inset 0 0 0 0.125em #00005c;
+      }
+      .selectpay img {
+        width: 90%;
+    }
+
+    .copyright a:hover{
+        text-decoration: underline;
+    }
+
+    .h-70 {
+        height: 70vh;
+    }
+    .mg-30 {
+      margin: 20px 0 20px;
+    }
+    .register-form .submit.ftright {
+        float: none;
+        text-align: center;
+        margin-top: -24px;
+    }
+    .register-form .submit.ftright button:hover:after {
+        transform: translateX(170px);
+        -moz-transform: translateX(170px);
+        -webkit-transform: translateX(170px);
+    }
+
+ 
+
+.paymentinfo {
+  display: inline;
+}
+
+.boder-dashed {
+  width: 100%;
+  border-top: 3px solid #a5a4a4;
+  border-top-style: dashed;
+}
+
+    .paywrapper {
+      -webkit-animation: wrapperAni 230ms ease-in 200ms forwards;
+              animation: wrapperAni 230ms ease-in 200ms forwards;
+      background: white;
+      /* border: 1px solid rgba(0, 0, 0, 0.15); 
+      border-radius: 4px;
+      box-shadow: 5px 10px 100px rgba(0,0,0,0.3);*/
+      display: block;
+      min-height: 440px;
+      margin: 0 auto;
+      opacity: 0;
+      position: relative;
+      width: 90%;
+      text-align: center;
+    }
+    
+    .card__wrapper {
+      height: 200px;
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+    
+    .card__body {
+      -webkit-animation: headerAni 230ms ease-in 430ms forwards;
+              animation: headerAni 230ms ease-in 430ms forwards;
+      border-radius: 0;
+      height: 700px;
+      left: -200px;
+      opacity: 0;
+      position: absolute;
+      top: -500px;
+      width: 700px;
+    }
+    .card__body .sign {
+      -webkit-animation: signAni 430ms ease-in 660ms forwards;
+              animation: signAni 430ms ease-in 660ms forwards;
+      border-radius: 50%;
+      bottom: 50px;
+      display: block;
+      height: 100px;
+      left: calc(50% - 50px);
+      opacity: 0;
+      position: absolute;
+      width: 100px;
+    }
+    
+     
+    
+    .paywrapper button {
+      background: white;
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-radius: 20px;
+      bottom: -20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      color: rgba(0, 0, 0, 0.7);
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 600;
+      height: 40px;
+      left: calc(50% - 85px);
+      outline: none;
+      position: absolute;
+      transition: all 170ms ease-in;
+      width: 170px;
+    }
+    
+    /*
+     * COLOR SPECIFIC
+    */
+    .paywrapper.red .card__body {
+      background-color: #ffb3b3;
+    }
+    .paywrapper.red .sign {
+      background-color: #ff3535;
+      box-shadow: 0 0 0 15px #ff8282, 0 0 0 30px #ffa2a2;
+    }
+    .paywrapper.red .sign:before,  .paywrapper.red .sign:after {
+      background: white;
+      border-radius: 2px;
+      content: "";
+      display: block;
+      height: 40px;
+      left: calc(50% - 2px);
+      position: absolute;
+      top: calc(50% - 20px);
+      width: 5px;
+    }
+    .paywrapper.red .sign:before {
+      transform: rotate(45deg);
+    }
+    .paywrapper.red .sign:after {
+      transform: rotate(-45deg);
+    }
+    .paywrapper.red button:hover {
+      border-color: #ff3535;
+    }
+    .paywrapper.red button:focus {
+      background-color: #ffb3b3;
+      border-color: #ff3535;
+    }
+    
+     .paywrapper.green .card__body {
+      background-color: #bef0c8;
+    }
+    .paywrapper.green .sign {
+      background-color: #4ec45e;
+      box-shadow: 0 0 0 15px #74d181, 0 0 0 30px #9bdea4;
+    }
+    .paywrapper.green .sign:before,  .paywrapper.green .sign:after {
+      background: white;
+      border-radius: 2px;
+      content: "";
+      display: block;
+      height: 40px;
+      left: calc(50% - 2px);
+      position: absolute;
+      top: calc(50% - 20px);
+      width: 5px;
+    }
+    .paywrapper.green .sign:before {
+      left: calc(50% + 5px);
+      transform: rotate(45deg);
+      top: calc(50% - 20px);
+    }
+    .paywrapper.green .sign:after {
+      height: 20px;
+      left: calc(50% - 15px);
+      transform: rotate(-45deg);
+      top: calc(50% - 5px);
+    }
+    .paywrapper.green button:hover {
+      border-color: #4ec45e;
+    }
+    .paywrapper.green button:focus {
+      background-color: #bef0c8;
+      border-color: #4ec45e;
+    }
+    
+    /*
+     * ANIMATIONS
+    */
+    @-webkit-keyframes wrapperAni {
+      0% {
+        opacity: 0;
+        transform: scale(0.95) translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+    @keyframes wrapperAni {
+      0% {
+        opacity: 0;
+        transform: scale(0.95) translateY(40px);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+    @-webkit-keyframes headerAni {
+      0% {
+        border-radius: 0;
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+      100% {
+        border-radius: 50%;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes headerAni {
+      0% {
+        border-radius: 0;
+        opacity: 0;
+        transform: translateY(-100px);
+      }
+      100% {
+        border-radius: 50%;
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @-webkit-keyframes signAni {
+      0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(180deg);
+      }
+      60% {
+        transform: scale(1.3);
+      }
+      80% {
+        transform: scale(0.9);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+      }
+    }
+    @keyframes signAni {
+      0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(180deg);
+      }
+      60% {
+        transform: scale(1.3);
+      }
+      80% {
+        transform: scale(0.9);
+      }
+      100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+      }
+    }
+ 
+
+
+    
+
+
+
+
+
+
+
+
+      @media (min-width: 2560px){
+      .container {
+          max-width: 2000px;
+      }
+    }
+
+      @media screen and (max-width: 768px) {
+        .mbllogobg {
+            display: block;
+        }
+        .signup-img {
+            display: none;
+        }
+        .signup-content {
+            margin: 0;
+            display: inherit !important;
+        }
+        .signup-form {
+            width: 100%;
+        }
+        .signup-form header {
+            display: inherit !important;
+        }
+        .switchright {
+            width: 100%;
+            display: inline-block;
+        }
+        .register-form.p-5 {
+            padding: 1rem !important;
+            margin-bottom: 20px;
+        }
+        .mbllogobg .c4c-logo {
+            width: 20%;
+        }
+        .mbllogobg .c4c-logo img{
+            width: 100%;
+            height: 100%;
+        }
+        .register-form {
+          padding: 0.678rem 0.878rem !important;
+        }
+        .selectpay label {
+          width: 100%;
+          font-size: 0.778rem;
+      }
+      .register-form .submit button {
+        padding: 0.368em 1em;
+        margin-bottom: 18px;
+    }
+
+    .register-form .backbtn button {
+      padding: 0.368em 1em;
+      margin-bottom: 18px
+  }
+  
+  .register-form .submit button:before, .register-form .submit button:after {
+    display: none !important;
+  }
+      }      
+      @media screen and (max-width: 570px) {
+        .mbllogobg .c4c-logo {
+            width: 30%;
+        }
+        .selectpay label {
+          font-size: 0.600rem;
+          height: 30px;
+      }
+      .register-form .submit button {
+        font-size: 0.785rem;
+    }
+    .register-form .backbtn button {
+      font-size: 0.785rem;
+  }
+
+    .checkboxInput p {
+      width: 90%;
+  }
+
+  .signup-form header h4 {
+    text-align: center;
+  }
+ 
+
+  
+      }
+      button.custom-primary-btn{
+        color: #fff;
+        background-color: #5cb85c;
+        border-color: #4cae4c;
+       //  margin-top:-22px;
+    z-index: 1;
+    border-radius: 15px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    padding: 10px 15px;
+    min-width:50px;
+    font-size: 16px;
+    }
+    button.custom-secondary-btn{
+     color: #6c757d;
+     border:2px solid #6c757d;
+    background-color: transparent;
+    background-image: none;
+    border-color: #6c757d;
+       //  margin-top:-22px;
+    z-index: 1;
+    border-radius: 15px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    padding: 8px 15px;
+    min-width:50px;
+    font-size: 16px;
+    }

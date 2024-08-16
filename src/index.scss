@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500|Sarabun:400,600,700&display=swap);
+
+:root {
+  --accent-color: rgb(204, 0, 0);
+  --lightest-gray: rgb(244, 244, 244);
+  --light-gray: rgb(144, 144, 144);
+  --medium-gray: rgb(96, 96, 96);
+  --dark-gray: rgb(13, 13, 13);
+  --header-height: 50px;
+  --animation-duration: 200ms;
+  --animation-timing-curve: ease-in-out;
+  --border-color:#ccc;
+  --dark-theme: rgb(21,32,43)
+}
+body{
+ // background-color: #000 !important;
+  height: 100vh;
+  background-color: #2B2B2B;
+  //commented 
+  // DON'T DELETE 
+  //  background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('./../assets/img/stealbg.jpg');
+  background-position: 0 0, 50%;
+  background-position-y:-60px;
+  // background-repeat: repeat, no-repeat;
+  background-repeat: repeat;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+  align-items: center;
+  margin-left: 0;
+  padding-bottom: 6%;
+  position: relative;
+  // background-image: url('./../assets/img/onboard.jpg');
+  // background-repeat: space;
+  background-repeat: repeat;
+  background-size: 100px 100px !important;
+
+}
+
+// body {
+//      margin: 0;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     font-size: 0.875rem;
+//     font-weight: 400;
+//     line-height: 1.45;
+//     font-family: Roboto,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif !important;
+//     background-color: #f9fafd;
+// }
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ /* Scrollbar CSS  Start*/
+ ::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar
+{
+	width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color:#7e7c80;
+}
+
+ /* Scrollbar CSS  End*/

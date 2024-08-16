@@ -1,0 +1,49 @@
+
+#socalList{
+
+
+#google{
+  width:60px;
+  height:60px;
+  background:#fff;
+  text-align:center;
+  font-weight:bold;
+  font-size:32px;
+  font-family:arial;
+  line-height:62px;
+  border-radius:50%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  transform:translate(-50%,-50%);
+}
+#google:hover:before{
+  position:absolute;
+  content:'';
+  border:2px solid #fff;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  border-radius:50%;
+  animation:animate 2s linear infinite;
+}
+#google:hover:after{
+  position:absolute;
+  content:'';
+  border:2px solid #fff;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  border-radius:50%;
+  animation:animate 2s 1s linear infinite;
+}
+
+@keyframes animate{
+  100%{
+    transform:scale(2);
+    opacity:0
+  }
+}
+}

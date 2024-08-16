@@ -1,0 +1,7 @@
+{    
+    "ENV": {
+        "IS_PROD": false,
+        "IS_UAT": false,
+        "API_URL": "http://happserver-env-1.eba-xn6wqr76.ap-southeast-2.elasticbeanstalk.com"
+    }
+}

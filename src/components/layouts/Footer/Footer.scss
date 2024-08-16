@@ -1,0 +1,29 @@
+Footer{
+   // background-color:#e5e5e5;
+    // position: absolute;
+    //position: sticky;
+    bottom: 0px;
+    width: 100%;
+   // opacity: 0.5;
+    font-weight: 200;
+    font-size: 14px;   
+}
+div.Footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+    background: #000;
+    opacity: 0.5;
+    }
+p.like_review{
+    //text-align: end;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    span{
+        cursor: pointer;
+    }
+}
